@@ -13,6 +13,24 @@ public class BoundaryAcheterProduit {
 	}
 
 	public void acheterProduit(String nomAcheteur) {
-		// TODO Ã  completer
+		System.out.println("1 - je veux acheter un produit.");
+		System.out.println("2 - je veux avoir une vue d'ensemble du marché.");
+		System.out.println("3 - Quitter l'application.");
+		int selectionMenu = Clavier.entrerEntier("");
+		switch(selectionMenu) {
+			case 1:
+				System.out.println("Quel produit voulez-vous acheter ?");
+				String nomProduit = scan.next();
+				System.out.println("Chez quel commerçant voulez-vous acheter des " + nomProduit);
+				break;
+			case 2:
+				
+				break;
+				
+			case 3:
+				
+				break;
+		}
+		controlAcheterProduit.acheterProduit();
 	}
 }

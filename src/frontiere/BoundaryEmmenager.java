@@ -27,7 +27,6 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
 					System.out.println("Bienvenue villageois " + nomVisiteur);
 					int force = Clavier.entrerEntier("Quelle est votre force ?");
 					controlEmmenager.ajouterGaulois(nomVisiteur, force);
@@ -43,7 +42,6 @@ public class BoundaryEmmenager {
 	}
 
 	private void emmenagerDruide(String nomVisiteur) {
-		//TODO a completer
 		int effetPotionMin = -1;
 		int effetPotionMax = -1;
 		System.out.println("Bienvenue druide " + nomVisiteur);
